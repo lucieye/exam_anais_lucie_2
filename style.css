@@ -1,0 +1,173 @@
+/* style.css */
+body{
+  background: rgb(245,245,245);
+  font-size: 13px;
+  font-family: teko;
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center
+}
+
+header {
+  font-family: Roboto;
+  color: pink;
+  font-weight: lighter;
+  font-size: 8px;
+  margin: 10px;
+  padding: 15px;
+}
+
+footer {
+  background: rgb(136,311,433);
+  color: pink;
+  text-align: center;
+  border-top: 1rem solid;
+  border-top-color: black;
+  border-top-width: 2px;
+  padding: 30px;
+}
+
+div {
+  display: table;
+  margin: 0 auto;
+   
+
+}
+nav li{
+      margin: 0px auto;
+      padding: 0px;
+     float:left;
+    list-style-type: none;
+
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+nav {
+  background: #41A3C0;
+  width: 100%;
+
+
+}
+
+nav a{
+  padding: 30px 40px;
+  margin: 20px;
+  float : left;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 15px;
+  color: grey;
+
+}
+
+ @media all and (min-width: 0px) and (max-width: 1280px) {
+  h1 {
+    font-weight: bold;
+  font-size: 50px;
+  color: green;
+  margin: 20px;
+  padding: 20px;
+
+
+
+  }
+}
+
+ @media all and (min-width: 0px) and (max-width: 1280px) {
+nav a {
+
+  font-size: 30px;
+  padding: 40px 50px;
+  margin: 50px;
+color: yellow;
+
+} 
+
+
+section{
+
+  height: 500px;
+}
+
+
+ @media all and (min-width: 0px) and (max-width: 1280px) {
+h2{
+color: yellow;
+
+
+}
+.container{ 
+
+margin: 0px 10%
+}
+
+div div {
+
+float: left;
+width: 50%;
+
+}
+
+ @media all and (min-width: 0px) and (max-width: 1280px) {
+
+  iframe {
+height: 100%
+
+
+  }
+}
+
+p{
+  float: right;
+}
+
+.features {border: 5px solid red;
+margin:15px;
+padding: 15px 0;
+text-align: center;
+width: 400px;
+background: white;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+  color: #3b4563;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+
+.feature{
+
+margin:15px;
+padding: 15px 0;
+text-align: center;
+width: 400px;
+
+}
+
+
+.feature3 {
+
+  float: left;
+}
+
+
+
+.feature2{
+
+  float: center;
+
+}
